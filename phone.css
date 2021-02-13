@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:rgb(43, 42, 42);
+}
+
+/* Navigation */
+#navbar ul li a
+{
+    display: block;
+    margin: 20px 10px;
+    padding: 0px 0px ;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+#navbar
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    background-color: rgb(182, 57, 194);
+}
+/* Home */
+.home_text h1 {
+    font-size: 2.2rem;
+    margin-left: 20px;
+    
+}
+#home_text_p1 {
+    margin: 0px 39px;
+}
+#home_text_p2 {
+    
+        margin: 3px 38px;
+}
+.home_text {
+    
+    margin: 0px 37px;
+    
+}
+#home img {
+    
+    /* border: 2px solid rgb(240, 80, 80);
+    border-radius: 19px;
+    margin: 27px 0px; */
+}
+.home_my_img img    
+{
+    border: none;
+    width: 200px;
+    height: 344px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+}
+#home 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home img
+{
+    width: 300px;
+    height: 400px;
+    border: 2px solid rgb(240, 80, 80);
+    border-radius: 19px;
+    margin: 45px 73px
+    
+}
+/* Education */
+#education
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.education_div 
+{
+    padding: 34px;
+    margin: 4px 40px;         
+}
+.education_logo {
+    width: 50px;    
+    height: 50px;
+    
+}
+
+.education_container:hover
+{
+    background-color: rgb(35, 218, 141);
+    transform: translateY(20px);
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+#education-heading
+{
+    margin-top: 20px;
+    color: white;
+}
+/* Courses */
+#courses {
+    
+    justify-content: center;
+    align-items: center;
+}
+#courses_container
+{
+    display: flex;
+    flex-direction: column;
+}
+#courses-heading
+{
+    color: white;
+}
+/* Skills */
+#skills
+{
+    justify-content: center;
+    align-items: center;
+}
+#skills-heading
+{
+    color: white;
+}
+/* Familier with */
+#familier-with {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#familier-with-heading
+{
+    color: white;
+}
+/* Projects */
+.project_image img
+{
+    width: 350px;
+    height: 250px;
+    border: 2px solid blueviolet;    
+}
+/* Achievements */
+
+#achievements-heading
+{
+    color: white;
+}
+.achievements_container h2 {
+    margin-top: 20px;
+    color: white;
+}
+.achievements_container h4 {
+
+    color: white;
+}
+
+/* Footer */
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 38, 38);
+    /* justify-content: center;
+    align-items: center; */
+}
